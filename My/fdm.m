@@ -214,6 +214,8 @@ P_s = 0;
 Q_s = 0;
 R_s = 0;
 
+C_y0 = 0;
+C_n0 = 0;
 
 lon_A_pre = [ 
       (X_u + X_Tu),     X_alpha,                0,             -g*cos(theta_s);
