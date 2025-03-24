@@ -207,12 +207,13 @@ N_delta_r = (q_bar * S * b * C_ndelta_r) / I_zz;
 % Longitudinal equations in the matrixes
 
 theta_s = 0; %TBD
-phi_s   = 0;
-psi_s   = 0;
+phi_s = 0;
+psi_s = 0;
 
-P_s = 0.0;
-Q_s = 0.0;
-R_s = 0.0;
+P_s = 0;
+Q_s = 0;
+R_s = 0;
+
 
 lon_A_pre = [ 
       (X_u + X_Tu),     X_alpha,                0,             -g*cos(theta_s);
